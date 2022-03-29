@@ -1,5 +1,5 @@
 {
-  "name": "react-native-safe-area-context",
+  "name": "@types/react-native-safe-area-context",
   "version": "4.2.4",
   "description": "A flexible way to handle safe area, also works on Android and web.",
   "main": "lib/commonjs/index.js",
@@ -29,9 +29,9 @@
   "scripts": {
     "start": "react-native start",
     "test": "yarn validate:prettier && yarn validate:eslint && yarn validate:typescript && yarn validate:jest",
-    "validate:eslint": "eslint \"src/**/*.{js,ts,tsx}\" \"example/**/*.{js,ts,tsx}\" \"fabric-example/**/*.{js,ts,tsx}\"",
+    "validate:eslint": "eslint \"src/**/*.{js,ts,tsx}\"",
     "validate:typescript": "tsc --project ./ --noEmit",
-    "validate:prettier": "prettier \"src/**/*.{js,ts,tsx}\" \"example/**/*.{js,ts,tsx}\" \"fabric-example/**/*.{js,ts,tsx}\" --check",
+    "validate:prettier": "prettier \"src/**/*.{js,ts,tsx}\" --check",
     "validate:jest": "jest",
     "prepublish": "yarn test",
     "prepare": "bob build"
