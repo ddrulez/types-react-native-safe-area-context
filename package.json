@@ -11,16 +11,11 @@
   "files": [
     "src",
     "lib",
-    "android",
-    "ios",
-    "common",
     "jest",
-    "*.podspec",
-    "react-native.config.js",
     "!**/__tests__",
     "!example"
   ],
-  "author": "Janic Duplessis <janicduplessis@gmail.com>",
+  "author": "Dastra",
   "contributors": [
     "Evan Bacon <bacon@expo.io> (https://github.com/evanbacon)"
   ],
@@ -88,8 +83,6 @@
     "source": "src",
     "output": "lib",
     "targets": [
-      "commonjs",
-      "module",
       "typescript"
     ]
   },
